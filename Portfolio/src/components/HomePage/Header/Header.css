@@ -1,0 +1,54 @@
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  border: solid .2rem rgba(200,200,200,.8);
+  border-radius: 10px 100px / 120px;
+  padding: 2rem .6rem;
+  flex-direction: column;
+  width: 92vw;
+}
+
+.nav_item {
+  display: flex;
+  gap: 1rem;
+  padding-right: 1rem;
+  justify-content: center;
+}
+
+h1 {
+  color: goldenrod;
+  font-weight: bold;
+  font-family: 'Dancing Script', sans-serif;
+  margin: 0;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h1:hover {
+  cursor: pointer;
+  color: white;
+  text-shadow: 1px 1px 2px gold, 0 0 1em goldenrod, 0 0 0.2em white;
+}
+
+.nav_item-links {
+  text-decoration: none;
+  color: whitesmoke;
+  padding-top: .7rem;
+}
+
+@media screen and (min-width:700px) {
+  .nav_bar {
+    flex-direction: row;
+    width: 94vw;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .nav_bar {
+    width: 96.5vw;
+  }
+  
+  .nav_item {
+    gap: 5rem;
+  }
+}
