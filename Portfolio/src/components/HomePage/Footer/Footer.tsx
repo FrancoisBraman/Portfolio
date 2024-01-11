@@ -1,6 +1,8 @@
-import './Footer.css'
-import github from '../../../assets/github_logo.png'
-import linkedin from '../../../assets/linkedin_logo.png'
+import './Footer.css';
+import github from '../../../assets/github_logo.png';
+import linkedin from '../../../assets/linkedin_logo.png';
+import React from 'react';
+
 
 const Footer = () => {
   return (
